@@ -1,0 +1,45 @@
+@import "../../styles/variables";
+
+.main {
+  padding-top: 10px;
+  min-height: 100vh;
+  background-color: $main-content-bg-color;
+}
+
+.main_wrapper {
+  max-width: 1750px;
+  margin: 0 auto;
+}
+
+.main_content {
+  width: 100%;
+  padding: 0 16px;
+}
+
+.filter_button {
+  max-width: 40px;
+
+  button {
+    margin-bottom: 10px;
+    display: flex;
+    border: none;
+    background: #333333;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    img {
+      width: 100%;
+    }
+
+    &:hover {
+      background: #e12e00;
+    }
+  }
+}
+
+.loading {
+  font-size: 33px;
+  color: white;
+  text-align: center;
+}

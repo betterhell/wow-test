@@ -1,0 +1,79 @@
+.ships {
+  padding: 15px 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 418px);
+  gap: 15px;
+}
+
+.ship {
+  width: 100%;
+  background: rgba(92, 92, 92, 0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  padding: 15px;
+  height: auto;
+  position: relative;
+
+  &_info {
+	color: #cdb548;
+	display: flex;
+	align-items: center;
+	margin-bottom: 15px;
+
+	h1 {
+	  font-size: 26px;
+	}
+
+	.nation, .type {
+	  display: flex;
+	  align-items: center;
+	  img {
+		display: flex;
+		margin: 0 5px;
+		width: 30px;
+		height: 25px;
+	  }
+	}
+  }
+
+  img {
+	width: 100%;
+	z-index: 100;
+	position: relative;
+  }
+
+  .background {
+	position: absolute;
+	top: 60px;
+	width: calc(100% - 32px);
+	opacity: .25;
+  }
+
+  &_stats {
+	border: 1px solid wheat;
+	padding: 3px;
+	display: flex;
+	justify-content: center;
+	margin: 5px 0;
+
+  }
+
+  &_description {
+	color: #FFFFFF;
+
+	h3 {
+	  display: inline-block;
+	  margin-right: 5px;
+	  font-size: 17px;
+
+	  span {
+		color: #cdb548;
+	  }
+	}
+
+	p {
+	  font-size: 15px;
+	}
+  }
+}
