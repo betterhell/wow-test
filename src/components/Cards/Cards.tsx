@@ -12,7 +12,6 @@ const Cards: React.FunctionComponent<Props> = ({
   currentShips,
   setCurrentShip,
 }) => {
-  console.log(currentShips);
   return (
     <Reorder.Group
       axis="y"
