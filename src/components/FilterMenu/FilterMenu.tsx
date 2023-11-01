@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import { Ilevels, levels as initialLevels } from "../../filters/levels";
 import { ITypes, types as initialTypes } from "../../filters/types";
 import { INations, nations as initialNations } from "../../filters/nations";
+import MainButton from "../../UI/MainButton/MainButton";
 
 interface Props {
   ships: any;
@@ -66,6 +67,12 @@ const FilterMenu: React.FunctionComponent<Props> = ({
         });
         break;
     }
+  };
+
+  const clearFilters = () => {
+    setTypes([...initialTypes]);
+    setLevels([...initialLevels]);
+    setNations([...initialNations]);
   };
 
   useEffect(() => {
@@ -158,6 +165,13 @@ const FilterMenu: React.FunctionComponent<Props> = ({
             ))}
           </div>
         </div>
+      </div>
+      <div>
+        <MainButton
+          onClick={clearFilters}
+          label="СБРОСИТЬ"
+          style={styles.clear_button}
+        />
       </div>
     </motion.div>
   );

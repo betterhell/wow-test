@@ -5,7 +5,7 @@ import styles from "./style.module.scss";
 import { getAllShips } from "../../api";
 
 import FilterMenu from "../FilterMenu/FilterMenu";
-import Cards from "../Cards/Cards";
+import Cards from "../Ships/Cards";
 
 import { AnimatePresence } from "framer-motion";
 

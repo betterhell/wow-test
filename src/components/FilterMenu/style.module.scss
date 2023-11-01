@@ -33,3 +33,32 @@
 	}
   }
 }
+
+.clear_button {
+  height: 44px;
+  min-width: 190px;
+  cursor: pointer;
+  max-width: 300px;
+  margin: 15px;
+
+  a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(to top, #e12e00 0, #fd6200 100%);
+	font-size: 16px;
+	white-space: nowrap;
+	font-weight: 400;
+	letter-spacing: 0.32px;
+	padding: 0 28px;
+	color: #FFFFFF;
+	text-decoration: none;
+	transition: all .2s ease-in-out;
+
+	&:hover {
+	  background-size: 100% 400%;
+	}
+  }
+}

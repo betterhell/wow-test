@@ -5,6 +5,7 @@ import styles from "./style.module.scss";
 import Navigations from "../Navigations/Navigations";
 import Logo from "../Logo/Logo";
 import SearchButton from "../../UI/SearchButton/SearchButton";
+import MainButton from "../../UI/MainButton/MainButton";
 
 const Header = () => {
   const [open, setOpen] = useState<boolean>(false);
@@ -14,11 +15,11 @@ const Header = () => {
       <div className={styles.header_content}>
         <Logo />
         <Navigations open={open} setOpen={setOpen} />
-        <div className={styles.download_button}>
-          <a href="https://korabli.su/clicktracking/click/?next=/ru/content/game/?autodownload">
-            ИГРАЙ БЕСПЛАТНО
-          </a>
-        </div>
+        <MainButton
+          link="https://korabli.su/clicktracking/click/?next=/ru/content/game/?autodownload"
+          label="ИГРАЙ БЕСПЛАТНО"
+          style={styles.download_button}
+        />
       </div>
       {open && (
         <div className={styles.search_field}>
