@@ -1,8 +1,8 @@
 <h1>World of Warships - Frontend test</h1>
 
-![image](https://github.com/betterhell/wow-test/assets/94512220/f66bd386-2c88-442d-be96-2dc7877e01ff)
-![image](https://github.com/betterhell/wow-test/assets/94512220/103c1424-21b2-41df-aee6-a2a85c3a1359)
-![image](https://github.com/betterhell/wow-test/assets/94512220/25b6fa9b-15ae-4022-8af8-da8fdc92aefa)
+![image](https://github.com/betterhell/wow-test/assets/94512220/72fd454e-85cf-4ee0-a019-12ad96673030)
+![image](https://github.com/betterhell/wow-test/assets/94512220/4027dc30-c1b4-47cd-9195-bc43985ae33a)
+![image](https://github.com/betterhell/wow-test/assets/94512220/2139e347-0170-48d4-8830-68bc0e4ea906)
 
 Frontend powered by:
 <ul>
